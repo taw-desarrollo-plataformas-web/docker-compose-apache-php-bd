@@ -1,0 +1,27 @@
+# Carpetas de MySQL/MariaDB creadas por Docker
+mysql_data/
+mysql/
+db_data/
+
+# Carpetas de cache de PHP
+cache/
+tmp/
+
+# Configuraciones locales
+.env
+.env.local
+
+# Archivos creados por el editor
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker build files
+**/.docker
+**/dockerfiles
